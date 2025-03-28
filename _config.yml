@@ -3,10 +3,10 @@
 title: My Professional Resume
 description: Professional resume and portfolio website
 theme: jekyll-theme-minimal
-baseurl: "/resume-muse-portal"  # Add this line with your repo name
-url: "https://alqushaibi.github.io"  # Add your GitHub Pages URL
+baseurl: "/resume-muse-portal"
+url: "https://alqushaibi.github.io"
 
-# Exclude files from being included in the Jekyll build
+# Exclude node dependencies and build files from Jekyll processing
 exclude:
   - package.json
   - package-lock.json
@@ -14,7 +14,10 @@ exclude:
   - vite.config.ts
   - tsconfig.json
   - tsconfig.node.json
-  - src/
+  - "*.config.ts"
+  - "*.config.js"
+  - "/src/*.tsx"
+  - "/src/*.ts"
 
 # Jekyll SEO configuration
 author: Your Name
