@@ -3,6 +3,8 @@
 title: My Professional Resume
 description: Professional resume and portfolio website
 theme: jekyll-theme-minimal
+baseurl: "/resume-muse-portal"  # Add this line with your repo name
+url: "https://alqushaibi.github.io"  # Add your GitHub Pages URL
 
 # Exclude files from being included in the Jekyll build
 exclude:
