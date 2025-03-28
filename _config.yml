@@ -1,0 +1,26 @@
+
+# Jekyll configuration for GitHub Pages
+title: My Professional Resume
+description: Professional resume and portfolio website
+theme: jekyll-theme-minimal
+
+# Exclude files from being included in the Jekyll build
+exclude:
+  - package.json
+  - package-lock.json
+  - node_modules/
+  - vite.config.ts
+  - tsconfig.json
+  - tsconfig.node.json
+
+# Jekyll SEO configuration
+author: Your Name
+social:
+  name: Your Name
+  links:
+    - https://github.com/yourusername
+    - https://linkedin.com/in/yourlinkedin
+
+# Build settings
+markdown: kramdown
+permalink: pretty
